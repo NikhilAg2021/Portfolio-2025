@@ -112,17 +112,17 @@ class ContactFormTester:
             try:
                 response = requests.post(f"{API_BASE}/contact", json=test_data, timeout=10)
                 
-                if response.status_code == 400:
+                if response.status_code == 422:  # FastAPI returns 422 for validation errors
                     self.log_test(
                         f"POST /api/contact - Missing field test {i+1}",
                         True,
-                        f"Correctly rejected with 400: {response.json()}"
+                        f"Correctly rejected with 422: {response.json()}"
                     )
                 else:
                     self.log_test(
                         f"POST /api/contact - Missing field test {i+1}",
                         False,
-                        f"Expected 400, got {response.status_code}: {response.text}"
+                        f"Expected 422, got {response.status_code}: {response.text}"
                     )
                     all_passed = False
                     
