@@ -6,23 +6,23 @@ const About = () => {
   const highlights = [
     {
       icon: Code2,
-      title: "5+ Years",
+      title: "2+ Years",
       description: "Professional Experience"
     },
     {
       icon: Rocket,
-      title: "20+ Projects",
+      title: "3+ Projects",
       description: "Successfully Delivered"
     },
     {
       icon: Users,
-      title: "15+ Clients",
-      description: "Worldwide"
+      title: "50+ Members",
+      description: "Team Leadership"
     },
     {
       icon: Award,
-      title: "100%",
-      description: "Client Satisfaction"
+      title: "20+ Medals",
+      description: "Competition Wins"
     }
   ];
 
