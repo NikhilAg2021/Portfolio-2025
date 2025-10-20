@@ -6,6 +6,9 @@ import { Textarea } from './ui/textarea';
 import { Card, CardContent } from './ui/card';
 import { toast } from '../hooks/use-toast';
 import { personalInfo } from '../data/mock';
+import axios from 'axios';
+
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -27,19 +30,38 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // Mock submission - will be replaced with actual API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
+      // Call backend API
+      const response = await axios.post(`${BACKEND_URL}/api/contact`, formData);
       
-      toast({
-        title: "Message Sent!",
-        description: "Thank you for reaching out. I'll get back to you soon.",
-      });
-      
-      setFormData({ name: '', email: '', message: '' });
+      if (response.data.success) {
+        toast({
+          title: "Message Sent!",
+          description: response.data.message,
+        });
+        
+        // Clear form
+        setFormData({ name: '', email: '', message: '' });
+      }
     } catch (error) {
+      console.error('Contact form error:', error);
+      
+      let errorMessage = "Failed to send message. Please try again.";
+      
+      if (error.response) {
+        // Server responded with error
+        if (error.response.status === 400) {
+          errorMessage = "Please check your input and try again.";
+        } else if (error.response.data && error.response.data.detail) {
+          errorMessage = error.response.data.detail;
+        }
+      } else if (error.request) {
+        // Request made but no response
+        errorMessage = "Unable to reach server. Please check your connection.";
+      }
+      
       toast({
         title: "Error",
-        description: "Failed to send message. Please try again.",
+        description: errorMessage,
         variant: "destructive"
       });
     } finally {
