@@ -22,43 +22,41 @@ export const socialLinks = {
 
 export const skills = [
   {
-    category: "Frontend",
+    category: "Frontend Development",
     items: [
-      { name: "React", level: 90 },
-      { name: "TypeScript", level: 85 },
-      { name: "Next.js", level: 80 },
-      { name: "Tailwind CSS", level: 90 },
-      { name: "Redux", level: 75 }
+      { name: "ReactJs", level: 85 },
+      { name: "JavaScript", level: 90 },
+      { name: "HTML/CSS", level: 90 },
+      { name: "REST APIs", level: 85 }
     ]
   },
   {
-    category: "Backend",
+    category: "Backend Development",
     items: [
-      { name: "Node.js", level: 90 },
-      { name: "Python", level: 85 },
-      { name: "Express.js", level: 85 },
-      { name: "FastAPI", level: 80 },
-      { name: "GraphQL", level: 70 }
+      { name: "Java", level: 90 },
+      { name: "Spring Boot", level: 85 },
+      { name: "Spring Framework", level: 85 },
+      { name: "PHP", level: 75 },
+      { name: "MySQL", level: 80 }
     ]
   },
   {
-    category: "Database & Cloud",
+    category: "Cloud & AI Technologies",
     items: [
-      { name: "MongoDB", level: 85 },
-      { name: "PostgreSQL", level: 80 },
-      { name: "AWS", level: 75 },
-      { name: "Docker", level: 80 },
-      { name: "Redis", level: 70 }
+      { name: "AWS Security", level: 80 },
+      { name: "AI & Machine Learning", level: 75 },
+      { name: "5G & Edge Computing", level: 70 },
+      { name: "Cryptographic Computing", level: 70 }
     ]
   },
   {
-    category: "Tools & Others",
+    category: "Core Skills & Tools",
     items: [
-      { name: "Git", level: 90 },
-      { name: "CI/CD", level: 75 },
-      { name: "Jest", level: 80 },
-      { name: "Webpack", level: 70 },
-      { name: "Agile", level: 85 }
+      { name: "Data Structures & Algorithms", level: 90 },
+      { name: "OOPs", level: 90 },
+      { name: "Database Management", level: 85 },
+      { name: "Unit Testing", level: 80 },
+      { name: "Problem Solving", level: 90 }
     ]
   }
 ];
