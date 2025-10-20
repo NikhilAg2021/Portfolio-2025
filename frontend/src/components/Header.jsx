@@ -45,7 +45,7 @@ const Header = () => {
             onClick={(e) => scrollToSection(e, '#home')}
             className="text-2xl font-bold text-white hover:text-blue-400 transition-colors"
           >
-            AM
+            NA
           </a>
 
           {/* Desktop Navigation */}
