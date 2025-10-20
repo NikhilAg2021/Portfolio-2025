@@ -24,8 +24,12 @@ mongo_url = os.environ['MONGO_URL']
 client = AsyncIOMotorClient(mongo_url)
 db = client[os.environ['DB_NAME']]
 
+# Initialize mock email service
+CONTACT_EMAIL = os.environ.get('CONTACT_EMAIL', 'nikhilagarwal.20.na@gmail.com')
+email_service = MockEmailService(recipient_email=CONTACT_EMAIL)
+
 # Create the main app without a prefix
-app = FastAPI()
+app = FastAPI(title="Nikhil Agarwal Portfolio API", version="1.0.0")
 
 # Create a router with the /api prefix
 api_router = APIRouter(prefix="/api")
