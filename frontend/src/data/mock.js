@@ -170,23 +170,23 @@ export const experience = [
 export const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    position: "CTO at TechCorp Solutions",
-    content: "Alex is an exceptional developer who consistently delivers high-quality work. Their technical expertise and problem-solving skills have been invaluable to our team.",
-    avatar: "https://ui-avatars.com/api/?name=Sarah+Johnson&background=3b82f6&color=fff"
+    name: "Senior Developer",
+    position: "L&T-SWC",
+    content: "Nikhil demonstrated exceptional technical skills during his internship. His ability to quickly grasp complex requirements and implement robust solutions was impressive. A valuable team member with great potential.",
+    avatar: "https://ui-avatars.com/api/?name=Senior+Developer&background=3b82f6&color=fff"
   },
   {
     id: 2,
-    name: "Michael Chen",
-    position: "Product Manager at Digital Innovations",
-    content: "Working with Alex was a pleasure. They have a great eye for detail and always deliver projects on time. Their communication skills make collaboration seamless.",
-    avatar: "https://ui-avatars.com/api/?name=Michael+Chen&background=06b6d4&color=fff"
+    name: "Team Lead",
+    position: "Accenture",
+    content: "Nikhil's dedication to learning and applying new technologies is commendable. His work on AWS Security and Full Stack Development shows strong technical aptitude and problem-solving abilities.",
+    avatar: "https://ui-avatars.com/api/?name=Team+Lead&background=06b6d4&color=fff"
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
-    position: "Lead Designer at CreativeHub",
-    content: "Alex brings ideas to life with clean, efficient code. They understand the importance of user experience and always implement designs perfectly.",
-    avatar: "https://ui-avatars.com/api/?name=Emily+Rodriguez&background=0ea5e9&color=fff"
+    name: "Club Member",
+    position: "VIT Dance Club",
+    content: "As Team Head, Nikhil led our 50-member team to multiple victories. His leadership skills, combined with excellent planning and time management, helped us achieve remarkable success in competitions.",
+    avatar: "https://ui-avatars.com/api/?name=Club+Member&background=0ea5e9&color=fff"
   }
 ];
