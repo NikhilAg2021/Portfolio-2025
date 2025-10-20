@@ -98,57 +98,71 @@ export const experience = [
   {
     id: 1,
     type: "work",
-    title: "Senior Software Engineer",
-    company: "TechCorp Solutions",
-    location: "San Francisco, CA",
-    period: "2021 - Present",
+    title: "Advanced Application Systems Engineer",
+    company: "Accenture",
+    location: "Bangalore, India",
+    period: "Oct 2024 - Present",
     description: [
-      "Lead development of microservices architecture serving 1M+ users",
-      "Mentored junior developers and conducted code reviews",
-      "Reduced API response time by 40% through optimization",
-      "Implemented CI/CD pipelines reducing deployment time by 60%"
+      "Completed comprehensive Java Full Stack Development training",
+      "Gained hands-on experience with unit testing frameworks to ensure code quality and reliability",
+      "Working on enterprise-level applications using Spring Boot and React",
+      "Collaborating with cross-functional teams to deliver high-quality solutions"
     ]
   },
   {
     id: 2,
     type: "work",
-    title: "Full Stack Developer",
-    company: "Digital Innovations Inc",
-    location: "San Francisco, CA",
-    period: "2019 - 2021",
+    title: "Advanced Systems Engineer",
+    company: "Accenture",
+    location: "Bangalore, India",
+    period: "Jun 2023 - Jul 2023",
     description: [
-      "Built and maintained multiple client-facing web applications",
-      "Collaborated with design team to implement responsive UI/UX",
-      "Integrated third-party APIs and payment gateways",
-      "Participated in agile development and sprint planning"
+      "Gained hands-on experience with AWS Security, including creating and managing ACLs and subnets",
+      "Acquired foundational knowledge of AI, 5G, Edge Computing, and Cryptographic Computing",
+      "Worked on cloud infrastructure security and optimization",
+      "Participated in technical training sessions and knowledge sharing"
     ]
   },
   {
     id: 3,
     type: "work",
-    title: "Junior Developer",
-    company: "StartUp Ventures",
-    location: "Mountain View, CA",
-    period: "2018 - 2019",
+    title: "Software Developer Intern",
+    company: "L&T-SWC",
+    location: "Bengaluru, India",
+    period: "May 2022 - Jul 2022",
     description: [
-      "Developed features for company's main product using React and Node.js",
-      "Fixed bugs and improved application performance",
-      "Wrote unit and integration tests",
-      "Participated in daily standups and sprint retrospectives"
+      "Developed a website integrating open-source maps with markers and clusters for network devices",
+      "Implemented user authentication features including signup, login, and logout with focus on user experience",
+      "Utilized REST APIs (Axios) to enhance project usability",
+      "Collaborated with senior developers on production-level features"
     ]
   },
   {
     id: 4,
     type: "education",
-    title: "B.S. Computer Science",
-    company: "University of California",
-    location: "Berkeley, CA",
-    period: "2014 - 2018",
+    title: "B.Tech Computer Science and Engineering",
+    company: "Vellore Institute of Technology",
+    location: "Vellore, India",
+    period: "Jul 2020 - Aug 2024",
     description: [
-      "GPA: 3.8/4.0",
-      "Focus: Software Engineering and Web Technologies",
-      "Dean's List all semesters",
-      "Senior Project: Real-time Collaboration Platform"
+      "CGPA: 8.71/10",
+      "Focus: Full Stack Development, Data Structures & Algorithms, Cloud Computing",
+      "Team Head of Bollywood Badmash Company (VIT Dance Club) - Led 50-member team",
+      "Achieved multiple inter-college victories and secured 20+ medals in competitions"
+    ]
+  },
+  {
+    id: 5,
+    type: "education",
+    title: "Science + Computer (ISC)",
+    company: "Don Bosco School Park Circus",
+    location: "Kolkata, India",
+    period: "May 2018 - May 2020",
+    description: [
+      "Score: 94.75%",
+      "Indian School Certificate Examinations (ISC)",
+      "Strong foundation in Computer Science and Mathematics",
+      "Active participant in coding competitions and tech events"
     ]
   }
 ];
