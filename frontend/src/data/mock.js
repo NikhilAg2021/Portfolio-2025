@@ -1,23 +1,23 @@
-// Mock data for portfolio website
+// Portfolio data for Nikhil Agarwal
 
 export const personalInfo = {
-  name: "Alex Morgan",
-  title: "Full Stack Software Engineer",
-  tagline: "Building scalable web applications and elegant user experiences",
-  email: "alex.morgan@example.com",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
-  bio: "I'm a passionate full-stack developer with 5+ years of experience building modern web applications. I specialize in React, Node.js, and cloud technologies. When I'm not coding, you can find me contributing to open-source projects, exploring new technologies, or hiking in the mountains.",
+  name: "Nikhil Agarwal",
+  title: "Advanced Application Systems Engineer",
+  tagline: "Java Full Stack Developer specializing in AWS, AI, and building robust web applications",
+  email: "nikhilagarwal.20.na@gmail.com",
+  phone: "+91 98047 70368",
+  location: "Bangalore, India",
+  bio: "I'm a passionate Java Full Stack Developer currently working at Accenture with expertise in modern web technologies, AWS Security, and AI. With a strong foundation in Data Structures and Algorithms, I specialize in building scalable applications using Spring Boot, React, and cloud technologies. Beyond coding, I've led a 50-member dance team, managed performances for 10,000+ audiences, and secured 20+ medals in competitions.",
   resume: "/resume.pdf",
   heroImage: "https://images.unsplash.com/photo-1707528041466-83a325f01a3c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwyfHxkZXZlbG9wZXIlMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzYwOTQ3NzUyfDA&ixlib=rb-4.1.0&q=85",
   aboutImage: "https://images.unsplash.com/photo-1634838872223-92ca3d20a927?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxwcm9ncmFtbWVyJTIwY29kaW5nfGVufDB8fHx8MTc2MDk0Nzc2MXww&ixlib=rb-4.1.0&q=85"
 };
 
 export const socialLinks = {
-  github: "https://github.com/alexmorgan",
-  linkedin: "https://linkedin.com/in/alexmorgan",
-  twitter: "https://twitter.com/alexmorgan",
-  email: "mailto:alex.morgan@example.com"
+  github: "https://github.com/nikhilagarwal",
+  linkedin: "https://linkedin.com/in/nikhilagarwal",
+  twitter: "https://twitter.com/nikhilagarwal",
+  email: "mailto:nikhilagarwal.20.na@gmail.com"
 };
 
 export const skills = [
