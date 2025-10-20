@@ -64,41 +64,31 @@ export const skills = [
 export const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
+    title: "StockPulse: Data Driven Market Insights",
+    description: "Developed a comprehensive stock price forecasting web application using advanced machine learning models. Compared GAN models with LSTM and GRU architectures, analyzing COVID-19's impact on prediction accuracy. Built a trader-focused platform featuring company information, technical analysis tools, and price forecasts.",
     image: "https://images.unsplash.com/photo-1554098415-788601c80aef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzYwOTQ3NzU3fDA&ixlib=rb-4.1.0&q=85",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
-    github: "https://github.com/alexmorgan/ecommerce-platform",
-    demo: "https://ecommerce-demo.example.com",
+    technologies: ["Python", "JavaScript", "GAN", "LSTM", "GRU", "Machine Learning"],
+    github: "https://github.com/nikhilagarwal/stockpulse",
+    demo: null,
     featured: true
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "Collaborative task management application with real-time updates, team collaboration features, and analytics.",
+    title: "Network Device Management System",
+    description: "Built during internship at L&T-SWC - a comprehensive website integrating open-source maps with interactive markers and clusters for network devices. Implemented secure user authentication with signup, login, and logout functionality, focusing on optimal user experience and REST API integration.",
     image: "https://images.unsplash.com/photo-1649451844931-57e22fc82de3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzYwOTQ3NzU3fDA&ixlib=rb-4.1.0&q=85",
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Socket.io"],
-    github: "https://github.com/alexmorgan/task-manager",
-    demo: "https://tasks-demo.example.com",
+    technologies: ["PHP", "MySQL", "JavaScript", "REST APIs", "Axios"],
+    github: "https://github.com/nikhilagarwal/network-device-mgmt",
+    demo: null,
     featured: true
   },
   {
     id: 3,
-    title: "Analytics Dashboard",
-    description: "Real-time analytics dashboard with data visualization, custom reports, and API integrations for business insights.",
+    title: "Official Website for Team UAV",
+    description: "Collaborated with a 10-member team during lockdown to develop the official website for Team UAV. Created a modern, responsive website showcasing team achievements, projects, and member profiles using core web technologies.",
     image: "https://images.pexels.com/photos/106344/pexels-photo-106344.jpeg",
-    technologies: ["React", "D3.js", "Python", "FastAPI", "Redis"],
-    github: "https://github.com/alexmorgan/analytics-dashboard",
-    demo: "https://analytics-demo.example.com",
-    featured: true
-  },
-  {
-    id: 4,
-    title: "Social Media API",
-    description: "RESTful API for social media platform with authentication, posts, comments, and real-time notifications.",
-    image: "https://images.pexels.com/photos/159299/graphic-design-studio-tracfone-programming-html-159299.jpeg",
-    technologies: ["Node.js", "Express", "MongoDB", "JWT", "Docker"],
-    github: "https://github.com/alexmorgan/social-api",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/nikhilagarwal/team-uav-website",
     demo: null,
     featured: false
   }
